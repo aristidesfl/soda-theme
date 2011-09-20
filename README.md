@@ -20,9 +20,14 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 
 ### Download Manually
 
-* Download the files using the .zip download option
+* Download the files using the GitHub .zip download option
 * Unzip the files and rename the folder to `Theme - Soda`
 * Copy the folder to your Sublime Text 2 `Packages` directory
+
+## Activating the theme
+
+To configure Sublime Text 2 to use the theme:
+
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> User Global Settings`
 * Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
 
@@ -34,16 +39,15 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 
 ## Bonus Options
 
-### Code Highlighting Colour Schemes
+### Syntax Highlighting Colour Schemes
 
-The code highlighting colour scheme shown in the Soda Light screenshot is [Espresso tutti colori.tmTheme](https://github.com/mkhl/espresso-tutti-colori.tmtheme), which was originally based on the Espresso Editor default colour scheme and ported to TextMate by [Martin Kühl](https://github.com/mkhl).
+The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
 
-The code highlighting colour scheme shown in the Soda Dark screenshot is an ever so slightly tweaked version of Monokai that I created.
+If you'd like to use the syntax highlighting schemes shown in the screenshots: 
 
-#### To use the colour scheme
-
-* Download the `tmtheme` file from Martin's repo to the Sublime Text 2 `Packages/User` folder.
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`.
+* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
+* Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
 ### Code Font
 
@@ -52,12 +56,6 @@ The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Me
 ## Release Notes
 
 Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
-
-PLEASE NOTE: In a recent update, the Soda theme folder location was moved to "Packages".
-
-The theme has now been updated to work when placed inside the **Packages** folder instead of inside **Packages/User**. If you have cloned the theme into the User folder, you will see a [broken theme (with red backgrounds)](https://github.com/buymeasoda/soda-theme/wiki/I-See-Red) on the next git pull. To correct this issue, move the "Theme - Soda" folder from inside User to inside Packages.
-
-See [GitHub: Theme location issue](https://github.com/buymeasoda/soda-theme/issues/10) and [Sublime Forum: Theme location discussion](http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2471&start=50#p11550) for more details.
 
 ## Development
 
